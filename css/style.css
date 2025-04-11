@@ -30,6 +30,16 @@
     background-color: black;
     color: white;
     padding: 24px 72px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #trending {
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
   
   h1,
